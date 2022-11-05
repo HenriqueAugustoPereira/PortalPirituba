@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espaço Interativo</title>
+    <link rel="icon" href="Imagens/TopoInterative.png">
+    <link rel="stylesheet" href="styleInterativo.css">
+</head>
+<body>
+    <header>
+        <p id="Title">Portal Pirituba</p> 
+        <img src="Imagens/Bandeira menu.png" alt="bandeira" id="Bandeira">
+    </header>
+    <nav>
+        <a href="Portal Pirituba.html" class="Tópicos"> Página Inicial </a>
+        <a href="Destaques.html" class="Tópicos"> Destaques </a>
+        <a href="Shoppings.html" class="Tópicos"> Shopping </a>
+        <a href="EspaçoInterativo.html" class="Tópicos"> Avalie nosso site! </a>
+    </nav>
+    <div id="Abertura">
+        <h1>Avalie a <br> nossa <br> plataforma !</h1>
+        <img src="Imagens/Imagem Senhora Alegre.png" alt="Senhora Alegre" id="Pessoa">
+        <img src="Imagens/Mancha Vermelha.png" alt="Background Senhora" id="Mancha">
+    </div>
+
+    <form>
+        <fieldset>
+            <div id="nome">
+                <label for="nome">Nome</label> <br>
+                <input type="text" name="nome" id="InputNome" required>
+            </div>
+            <div id="sobrenome">
+                <label for="sobrenome">Sobrenome</label> <br>
+                <input type="text" name="Sobrenome" id="InputSobrenome" required>
+            </div>
+        </fieldset>
+
+        <div id="email">
+            <label for="email">Email</label> <br>
+            <input type="email" name="email" id="Inputemail" required>
+        </div>
+
+        <div id="sexo">
+            <label> Qual o seu sexo? </label> <br>
+            <select name="Sexo" id="SelectSexo">
+                <option selected disabled value=""></option>
+                <option value="Feminino">Feminino</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Outro">Outro</option>
+            </select>
+        </div>
+
+        <div id="Idade">
+            <label> Qual a sua Idade? </label> <br>
+            <select name="Idade" id="SelectIdade">
+                <option selected disabled value=""></option>
+                <option value="0 - 10">0 - 10</option>
+                <option value=" 11 - 20">11 - 20</option>
+                <option value="21 - 30">21 - 30</option>
+                <option value="31 - 40">31 - 40</option>
+                <option value="41 - 50">41 - 50</option>
+                <option value="+50">+50</option>
+            </select>
+        </div>
+
+        <div id="Avalie">
+            <label id="AvalieTitle"> Avalie nossa plataforma!</label> <br>
+            <label>
+                <input type="radio" name="devweb" value="1"> 😡
+            </label>
+            <label>
+                <input type="radio" name="value" value="2"> 😢
+            </label>
+            <label>
+                <input type="radio" name="value" value="3"> 😑
+            </label>
+            <label>
+                <input type="radio" name="value" value="4"> 😊
+            </label>
+            <label>
+                <input type="radio" name="value" value="5"> 🤩
+            </label>
+        </div>
+        
+        <div id="Comente">
+            <label for="Comentário" id="Comentáriotitle">Deixe um comentário!</label>
+            <br>
+            <textarea name="Comentário" id="Comentário" rows="10"></textarea>
+        </div>
+
+        <fieldset>
+            <div id="checkbox">
+                <input type="checkbox" id="InputTermos" name="Termos" value="HTML" required>
+                <label for="tecnologia" id="Termos">Eu concordo que li e aceito os Termos</label>
+                <input type="checkbox" id="NãoSouRobô" name="NãoSouRobô" value="img" required>
+                <label for="Não sou um Robô" id="Robô"> Eu não sou um Robô</label>
+            </div>
+        </fieldset>
+
+        <button type="submit">Enviar <img src="Imagens/Send.png" alt="Send" id="Send"></button>
+    </form>
+
+    <footer>
+        <h1>Descubra Mais em:</h1>
+        <div>
+            <a href="https://instagram.com/subpiritubajaragua?igshid=YmMyMTA2M2Y="><img src="Imagens/Instagram.png" alt="Instagram"></a>
+            <a href="https://pt-br.facebook.com/piritubanet/"><img src="Imagens/Facebook.png" alt="Facebook"></a>
+            <a href="https://mobile.twitter.com/piritubanet"><img src="Imagens/Twitter.png" alt="Twitter"></a>
+            <a href="https://www.tiktok.com/@piritubanet?_t=8X4g3Ow3nb4&_r=1"><img src="Imagens/TikTok.png" alt="TikTok"></a>
+        </div>
+        <ul id="ImagesBy">
+            <p id="Images">Images By</p>
+            <li> meioemensagem</li>
+            <li> pegaessa novidade</li>
+            <li> arbo</li>
+            <li> neoconx</li>
+            <li> Wikipédia</li>
+            <li> Fisk</li>
+            <li> PowerPoint</li>
+            <li> Piritubanet</li>
+            <li> Veja São Paulo</li>
+            <li> Veja São Paulo</li>
+            <li> Áreas Verdes das Cidades</li>
+            <li> flickr</li>
+            <li> Construquímica</li>
+            <li> GZH Economia</li>
+            <li> Google Maps</li>
+            <li> Ônibus Brasil</li>
+            <li> UBS Jardim Cidade Pirituba</li>
+        </ul>
+        <ul id="IconsBy">
+            <p id="Icons">Icons By</p>
+            <li> Storyset</li>
+            <li> Flaticon</li>
+            <li>Grupo Ópera</li>
+        </ul>
+    </footer>
+</body>
+</html>

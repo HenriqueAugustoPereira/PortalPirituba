@@ -1,0 +1,313 @@
+@font-face {
+    font-family: fonte1 ;
+    src: url(Fontes/Dominique.otf);
+}
+@font-face {
+    font-family: fonte2;
+    src: url(Fontes/Please\ write\ me\ a\ song.ttf);
+}
+
+@font-face {
+    font-family: fonte3;
+    src: url(Fontes/Comfortaa-Light.ttf);
+}
+
+header{
+    position: fixed;
+     top: 0; background-color: #8BD889; 
+     height: 70px; 
+     width:100%;
+     z-index: 10;
+}
+
+#Bandeira{
+    bottom: 640px; 
+    height: 230px; 
+    z-index: 11;
+    margin-top: -20px;
+    margin-left: 1010px;
+}
+
+#Title{
+    position: fixed; 
+    top: -70px; 
+    left: 100px; 
+    font-family: fonte1; 
+    color: rgb(248, 248, 248); 
+    font-size: 70px;
+}
+
+nav{
+    background-color:#5c8a55; 
+    position: fixed; 
+    width: 100%; 
+    z-index: 3; 
+    height: 40px;
+    top: 70px;
+}
+
+nav a:hover{
+    color: #2c2c2c;
+    transition: 200ms;
+}
+
+.Tópicos{
+    color: white; 
+    font-size: 40px; 
+    font-family: fonte2; 
+    margin-left: 50px; 
+    display: inline-block;
+    position: relative;
+    bottom: 4px;
+    text-decoration: none;
+}
+
+#Abertura{
+    background-color: #aadfa8;
+    margin-top: 110px;
+    font-family: fonte1;
+    color: white;
+    height: 480px;
+}
+
+#Abertura h1{ 
+    font-size: 90px;
+    position: relative;
+    left: 120px;
+    top: 50px;
+    width: 500px;
+    line-height: 120px;
+}
+
+#Pessoa{ 
+    height: 450px;
+    position: absolute;
+    left: 780px;
+    bottom: 67px;
+    z-index: 2;
+}
+
+#Mancha{
+    position: absolute;
+    left: 590px;
+    top: -50px;
+    height: 800px;
+    z-index: 1;
+}
+
+body{margin: 0px;}
+
+input, select,  textarea, button{
+    border-radius: 50px;
+}
+
+button:hover{
+    background-color: #64a162;
+    color: rgb(236, 236, 236);
+    transition: 600ms;
+}
+
+fieldset{border: 0px;}
+
+label{
+    font-family: fonte2; 
+    color: #5c8a55; 
+    font-weight: bold; 
+    font-size: 30px;
+}
+
+#nome{
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+#InputNome{
+    width: 650px; 
+    height: 50px; 
+    border: #334e2f solid 2px; 
+    background-color: #dcf5db; 
+    font-size: 20px;
+}
+
+#sobrenome{margin-left: 300px;}
+
+#InputSobrenome{
+    width: 650px; 
+    height: 50px; 
+    border: #334e2f solid 2px; 
+    background-color: #dcf5db; 
+    font-size: 20px;
+}
+
+#email{margin-left: 315px;}
+
+#Inputemail{
+    width: 650px; 
+    height: 50px; 
+    border: #334e2f solid 2px; 
+    background-color: #dcf5db; 
+    font-size: 20px;
+}
+
+#Avalie{text-align: center; 
+    margin-top: 30px;
+}
+
+#AvalieTitle{
+    font-size: 50px; 
+    margin-top: 1000px;
+}
+
+#sexo{
+    margin-left: 320px; 
+    margin-top: 30px;
+}
+
+#SelectSexo{
+    width: 250px; 
+    height: 50px; 
+    border: #334e2f solid 2px; 
+    background-color: #dcf5db; 
+    font-size: 20px;
+}
+
+#Idade{ 
+    position:absolute; 
+    top: 939px; 
+    left: 700px;
+}
+
+#SelectIdade{
+    width: 250px; 
+    height: 50px; 
+    border: #334e2f solid 2px; 
+    background-color: #dcf5db; 
+    font-size: 20px;
+}
+
+#checkbox{
+    text-align: center; 
+    margin-top: 50px;
+}
+
+#Robô{
+    font-size: 15px; 
+    color: gray; 
+    font-family: arial;
+}
+
+#Termos{
+    font-size: 15px; 
+    color: gray; 
+    font-family: arial;
+}
+
+#Comente{
+    margin-top: 30px; 
+    text-align: center;
+}
+
+#Comentário{
+    width: 500px; 
+    border-radius: 12px;
+    outline-color: #334e2f; 
+    background-color: #dcf5db;
+}
+
+Button{
+    height: 70px; 
+    width: 250px; 
+    margin-left: 550px; 
+    margin-top: 30px; 
+    margin-bottom: 50px; 
+    background-color: #8BD889; 
+    font-size: 50px; 
+    font-family: fonte2; 
+    color: white;
+}
+
+#Send{
+    height: 30px; 
+    margin-left: 10px;
+}
+
+footer img {
+    height: 30px;
+    margin-left: 70px;
+}
+
+footer img:hover{
+    border-bottom: #8BD889 solid 3px;
+    transition: 100ms;
+}
+
+footer{
+    background-color: #162014;
+    position: absolute;
+    top: 1700px;
+    width: 100%;
+}
+
+footer div{
+    margin-left: 435px;
+    margin-top: 50px;
+}
+
+footer h1{
+    text-align: center;
+    color: white;
+    font-family: fonte2;
+    position: relative;
+    top: 20px;
+}
+
+#Indice{
+    position: absolute;
+    bottom: 270px;
+    right: 630px;
+    color: white;
+    font-family: fonte2;
+    font-size: 18px;
+    text-align: right;
+}
+
+#IndiceTitle{
+    font-family:fonte1;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+#Indice a{
+    color: white;
+    text-decoration: none;
+}
+
+#Indice a:hover{
+    color: #93f58f;
+}
+
+#ImagesBy{
+    color: white;
+    font-family: fonte2;
+    margin-top: 30px;
+    margin-left: 500px;
+}
+
+#Images{
+    font-family: fonte1;
+    font-size: 18px;
+}
+
+#IconsBy{
+    color: white;
+    font-family: fonte2;
+    position: absolute;
+    top: 137px;
+    left: 700px;
+}
+
+#Icons{
+    font-family: fonte1;
+    font-size: 18px;
+}
+

@@ -1,0 +1,420 @@
+@font-face {
+    font-family: fonte1 ;
+    src: url(Fontes/Dominique.otf);
+}
+@font-face {
+    font-family: fonte2;
+    src: url(Fontes/Please\ write\ me\ a\ song.ttf);
+}
+
+@font-face {
+    font-family: fonte3;
+    src: url(Fontes/Comfortaa-Light.ttf);
+}
+
+body{margin: 0;}
+
+header{
+    position: fixed;
+     top: 0; background-color: #8BD889; 
+     height: 70px; 
+     width:100%;
+     z-index: 10;
+}
+
+#Bandeira{  
+    bottom: 640px; 
+    height: 230px; 
+    z-index: 11;
+    margin-top: -20px;
+    margin-left: 1010px;
+}
+
+#Title{
+    position: fixed; 
+    top: -70px; 
+    left: 100px; 
+    font-family: fonte1; 
+    color: rgb(248, 248, 248); 
+    font-size: 70px;
+}
+
+nav{
+    background-color:#5c8a55; 
+    position: fixed; 
+    top: 70px;
+    width: 100%; 
+    z-index: 1; 
+    height: 40px;
+}
+
+nav a:hover{
+    color: #2c2c2c;
+    transition: 200ms;
+}
+    
+.Tópicos{
+    color: white; 
+    font-size: 40px; 
+    font-family: fonte2; 
+    margin-left: 50px; 
+    display: inline-block;
+    position: relative;
+    bottom: 4px;
+    text-decoration: none;
+}
+
+#capa h1{
+    z-index: -2;
+    font-family: fonte1;
+    font-size: 80px;
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    bottom: 150px;
+    line-height: 120px;
+    color: #4d6d47;
+}
+
+video{
+    position: absolute;
+    top: 0px;
+    left:0px;
+    width: 100%;
+    z-index: -3;
+}
+
+#Abertura{
+    height: 500px;
+    z-index: -2;
+    display: inline-block;
+    margin-top: 130px;
+    margin-left: 350px;
+    position: relative;
+}
+
+#Comercio{
+    width: 100%; 
+    height: 100%;
+    z-index: -15;
+    margin-top: 50px;
+}
+
+#Local{
+    position: absolute;
+    top: 760px;
+    left: 200px;
+    font-family: fonte2; 
+    color: black; 
+    font-size: 50px;  
+    width: 100%;
+    width: 600px;
+}
+
+#Listacomercios{
+    position: absolute; 
+    top: 850px;
+    left: 150px; 
+    font-size: 27px; 
+    font-family: fonte3; 
+    font-weight: 600; 
+    width: 1000px;
+}
+
+#Mapa1{
+    position: relative; 
+    bottom: 350px; 
+    left: 600px; 
+}
+
+#Lazer{
+    font-family: fonte2; 
+    color: black; 
+    font-size: 50px; 
+    width: 300px; 
+    position: absolute; 
+    top: 1310px;
+    left: 750px;
+}
+    
+#Listalazer{ 
+    position: relative;
+    bottom: 220px;
+    right: 100px;
+    font-size: 27px; 
+    font-family: fonte3; 
+    font-weight: 600; 
+    width: 100%;
+    text-align: right;
+}
+
+#Toronto{
+    position: relative;
+    bottom: 570px;
+    left: 100px;
+    width: 450px;
+    border: 10px solid #5c8a55;
+    border-radius: 40px;
+}
+
+#HistóriaBairro{
+    font-family: fonte2; 
+    color: black; 
+    font-size: 50px; 
+    width: 300px; 
+    position: absolute; 
+    top: 1740px;
+    left: 150px;
+}
+
+#História{ 
+    position: relative;
+    bottom: 480px;
+    left: 90px;
+    text-align: left;
+    font-size: 27px; 
+    font-family: fonte3; 
+    font-weight: 600; 
+    width: 900px;
+}
+
+#Estrada{
+    position: absolute;
+    top: 1740px;
+    left: 850px;
+    border: 10px solid #5c8a55;
+    border-radius: 40px;
+}
+
+#LocalizaçãoTitle{
+    font-family: fonte2; 
+    font-size: 50px; 
+    z-index: -1; 
+    width: 300px; 
+    position: absolute; 
+    left: 600px;
+    top: 2180px;
+    color: white;
+}
+
+#LocalizaçãoText{
+    position: relative;
+    bottom: 290px;
+    left: 100px;
+    text-align: left;
+    font-size: 27px; 
+    z-index: -1; 
+    font-family: fonte3; 
+    font-weight: 600; 
+    width: 900px;
+    color: white;
+}
+
+#Mapa2{
+    height: 430px;
+    position: absolute;
+    top: 2230px;
+    left: 900px;
+    z-index: -2;
+}
+
+#MarcadorMapa{
+    height: 90px;
+    position: relative;
+    bottom: 615px;
+    left: 925px;
+    z-index: -2;
+}
+
+#Localização{
+    background-color: #6d9167;
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    top: 2200px;
+    z-index: -2;
+}
+
+#EducaçãoTitle{ 
+    font-family: fonte2; 
+    color: black; 
+    font-size: 50px; 
+    z-index: -2; 
+    width: 300px; 
+    position: absolute; 
+    left: 800px;
+    top: 2748px;
+}
+
+#EducaçãoText{
+    position: relative;
+    bottom: 100px;
+    left: 330px;
+    font-size: 27px; 
+    z-index: -2; 
+    font-family: fonte3; 
+    font-weight: 600; 
+    width: 900px;
+    text-align: right;
+}
+
+#Fisk{
+    height: 320px;
+    position: absolute;
+    top: 2780px;
+    left: 80px;
+    border: 10px solid #5c8a55;
+    z-index: -2;
+    border-radius: 40px;
+}
+
+#SaúdeTitle{ 
+    font-family: fonte2; 
+    color: black; 
+    font-size: 50px; 
+    z-index: -2; 
+    width: 300px; 
+    position: absolute; 
+    left: 250px;
+    top: 3180px;
+}
+
+#SaúdeText{
+    position: relative;
+    top: 100px;
+    left: 130px;
+    text-align: left;
+    font-size: 27px; 
+    z-index: -2; 
+    font-family: fonte3; 
+    font-weight: 600; 
+    width: 900px;
+}
+
+#UBS{
+    height: 330px;
+    position: relative;
+    bottom: 240px;
+    left: 780px;
+    border: #5c8a55 solid 10px;
+    z-index: -2;
+    border-radius: 40px;
+}
+
+#VídeoTitle{
+    font-family: fonte1;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 60px;
+    position: relative;
+    bottom: 25px;
+}
+
+#VídeoArea{
+    background-color: #afc9ab;
+    z-index: -2;
+    position: absolute;
+    top: 3670px;
+    width: 100%;
+}
+
+#Vídeo{ 
+    width: 1000px;
+    height: 500px;
+    position: relative;
+    left: 180px;
+    bottom: 60px;
+    z-index: -1;
+    border-radius: 20px;
+    border: 5px solid #385233;
+}
+
+sup{
+    font-size: 15px;
+    color: aqua;
+}
+
+sup:visited{
+    color: midnightblue;
+}
+
+footer img {
+    height: 30px;
+    margin-left: 70px;
+}
+
+footer img:hover{
+    border-bottom: #8BD889 solid 3px;
+    transition: 100ms;
+}
+
+footer{
+    background-color: #162014;
+    position: relative;
+    top: 490px;
+}
+
+footer div{
+    margin-left: 435px;
+    margin-top: 50px;
+}
+
+footer h1{
+    text-align: center;
+    color: white;
+    font-family: fonte2;
+    position: relative;
+    top: 20px;
+}
+
+#Indice{
+    position: absolute;
+    bottom: 150px;
+    right: 630px;
+    color: white;
+    font-family: fonte2;
+    font-size: 18px;
+    text-align: right;
+}
+
+#IndiceTitle{
+    font-family:fonte1;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+#Indice a{
+    color: white;
+    text-decoration: none;
+}
+
+#Indice a:hover{
+    color: #93f58f;
+}
+
+#ImagesBy{
+    color: white;
+    font-family: fonte2;
+    margin-top: 30px;
+    margin-left: 400px;
+}
+
+#Images{
+    font-family: fonte1;
+    font-size: 18px;
+}
+
+#IconsBy{
+    color: white;
+    font-family: fonte2;
+    position: absolute;
+    top: 116px;
+    left: 800px;
+}
+
+#Icons{
+    font-family: fonte1;
+    font-size: 18px;
+}
+

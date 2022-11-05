@@ -1,0 +1,359 @@
+@font-face {
+    font-family: fonte1 ;
+    src: url(Fontes/Dominique.otf);
+}
+@font-face {
+    font-family: fonte2;
+    src: url(Fontes/Please\ write\ me\ a\ song.ttf);
+}
+
+@font-face {
+    font-family: fonte3;
+    src: url(Fontes/Comfortaa-Light.ttf);
+}
+
+
+body{margin: 0px;}
+
+header{
+    position: fixed;
+     top: 0; background-color: #8BD889; 
+     height: 70px; 
+     width:100%;
+     z-index: 10;
+}
+
+#Bandeira{
+    bottom: 640px; 
+    height: 230px; 
+    z-index: 11;
+    margin-top: -20px;
+    margin-left: 1010px;
+}
+
+#Title{
+    position: fixed; 
+    top: -70px; 
+    left: 100px; 
+    font-family: fonte1; 
+    color: rgb(248, 248, 248); 
+    font-size: 70px;
+}
+
+nav{
+    background-color:#5c8a55; 
+    position: fixed; 
+    width: 100%; 
+    z-index: 1; 
+    height: 40px;
+    top: 70px;
+}
+
+nav a:hover{
+    color: #2c2c2c;
+    transition: 200ms;
+}
+
+.Tópicos{
+    color: white; 
+    font-size: 40px; 
+    font-family: fonte2; 
+    margin-left: 50px; 
+    display: inline-block;
+    position: relative;
+    bottom: 4px;
+    text-decoration: none;
+}
+
+h2{
+    margin-top: 140px;
+    font-family: fonte3;
+    width: 900px;
+    margin-left: 70px;
+}
+
+#Swift img{
+    height: 350px; 
+    border-radius: 50px;
+    border: #8BD889 solid 10px; 
+    display: inline; 
+    position: relative; 
+    bottom: 250px; 
+    margin-left: 700px;}
+
+#Swift h1{font-family: fonte2;
+    color: #5c8a55;
+    font-size: 50px;
+    display: inline;
+    position: relative;
+    top: 90px;
+    left: 70px;}
+
+#Swift p{
+    position: relative;
+    top: 80px;
+    left: 60px;
+    font-size: 27px; 
+    font-family: fonte3; 
+    font-weight: 600; 
+    width: 450px;
+}
+
+#Terminal h1{font-family: fonte2;
+    color: #5c8a55;
+    font-size: 50px;
+    display: inline;
+    position: absolute;
+    top: 700px;
+    left: 780px;}
+
+#Terminal p{
+    position: relative;
+    left: 650px;
+    top: -80px;
+    text-align: right;
+    font-size: 27px; 
+    font-family: fonte3; 
+    font-weight: 600; 
+    width: 570px;
+}
+
+#Terminal img{
+    height: 420px; 
+    border-radius: 50px; 
+    border: #8BD889 solid 10px; 
+    display: inline; 
+    position: absolute; 
+    bottom: -490px; 
+    left: 20px;
+}
+
+#Terminal p span{margin-right: 490px;}
+
+#Terminal button{
+    position: absolute;
+    bottom: -475px;
+    left: 740px;
+    height: 30px;
+    width: 80px;
+    background-color: #8BD889;
+    font-family: 'Courier New';
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#Terminal button:hover{
+    background-color: #a5e4a3;
+    color: rgb(70, 70, 70);
+    cursor: pointer;
+}
+
+#Mercadão h1{font-family: fonte2;
+    color: #5c8a55;
+    font-size: 50px;
+    display: inline;
+    margin-left: 90px;   
+
+}
+
+#Mercadão p{
+    text-align: left;
+    font-size: 23px; 
+    font-family: fonte3; 
+    font-weight: 600; 
+    width: 570px;
+    margin-left: 30px;
+}
+
+#Mercadão img{
+    width: 590px; 
+    height: 380px;
+    border-radius: 50px; 
+    border: #8BD889 solid 10px; 
+    display: inline; 
+    position: absolute; 
+    bottom: -960px; 
+    left: 680px;
+}
+
+#Estação h1{font-family: fonte2;
+    color: #5c8a55;
+    font-size: 50px;
+    display: inline;
+    margin-left: 90px;   
+    position: relative;
+    top: 150px;
+    left: 460px;
+}
+
+#Estação p{
+    text-align: center;
+    font-size: 25px; 
+    font-family: fonte3; 
+    font-weight: 600; 
+    width: 970px;
+    position: relative;
+    top: 150px;
+    left: 180px;
+}
+
+#RUBI{
+    width: 800px;
+    border-radius: 50px; 
+    border: #8BD889 solid 3px; 
+    position: relative;
+    top: 160px;
+    left:280px;
+}
+
+#BK h1{font-family: fonte2;
+    color: #5c8a55;
+    font-size: 50px;
+    display: inline;
+    margin-left: 90px;   
+    position: relative;
+    top: 230px;
+    left: 780px;
+}
+
+#BK p{
+    text-align: right;
+    font-size: 25px; 
+    font-family: fonte3; 
+    font-weight: 600; 
+    width: 570px;
+    position: relative;
+    top: 230px;
+    left: 680px;
+}
+
+#BK img{
+    width: 500px; 
+    border-radius: 50px; 
+    border: #8BD889 solid 10px; 
+    display: inline; 
+    position: absolute; 
+    bottom: -1880px; 
+    left: 50px;
+}
+
+#Parque h1{font-family: fonte2;
+    color: #5c8a55;
+    font-size: 50px;
+    display: inline;
+    margin-left: 90px;   
+    position: relative;
+    top: 300px;
+    left: 20px;
+}
+
+#Parque ol{
+    text-align: left;
+    font-size: 25px; 
+    font-family: fonte3; 
+    font-weight: 600; 
+    width: 570px;
+    position: relative;
+    top: 300px;
+    left: 20px;
+    margin-bottom: 350px;
+}
+
+#Parque img{
+    width: 550px; 
+    border-radius: 50px; 
+    border: #8BD889 solid 10px; 
+    display: inline; 
+    position: absolute; 
+    bottom: -2320px; 
+    left: 660px;
+}
+
+sup{
+    font-size: 15px;
+    color: aqua;
+}
+
+sup:visited{
+    color: midnightblue;
+}
+
+footer img {
+    height: 30px;
+    margin-left: 70px;
+}
+
+footer img:hover{
+    border-bottom: #8BD889 solid 3px;
+    transition: 100ms;
+}
+
+footer{
+    background-color: #162014;
+    position: relative;
+    top: 70px;
+}
+
+footer div{
+    margin-left: 435px;
+    margin-top: 50px;
+}
+
+footer h1{
+    text-align: center;
+    color: white;
+    font-family: fonte2;
+    position: relative;
+    top: 20px;
+}
+
+#Indice{
+    position: absolute;
+    bottom: 170px;
+    right: 630px;
+    color: white;
+    font-family: fonte2;
+    font-size: 18px;
+    text-align: right;
+}
+
+#IndiceTitle{
+    font-family:fonte1;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+#Indice a{
+    color: white;
+    text-decoration: none;
+}
+
+#Indice a:hover{
+    color: #93f58f;
+}
+
+#ImagesBy{
+    color: white;
+    font-family: fonte2;
+    margin-top: 30px;
+    margin-left: 400px;
+}
+
+#Images{
+    font-family: fonte1;
+    font-size: 18px;
+}
+
+#IconsBy{
+    color: white;
+    font-family: fonte2;
+    position: absolute;
+    top: 116px;
+    left: 800px;
+}
+
+#Icons{
+    font-family: fonte1;
+    font-size: 18px;
+}

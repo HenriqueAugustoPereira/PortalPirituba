@@ -1,0 +1,221 @@
+@font-face {
+    font-family: fonte1 ;
+    src: url(Fontes/Dominique.otf);
+}
+@font-face {
+    font-family: fonte2;
+    src: url(Fontes/Please\ write\ me\ a\ song.ttf);
+}
+
+@font-face {
+    font-family: fonte3;
+    src: url(Fontes/Comfortaa-Light.ttf);
+}
+
+
+body{margin: 0px;}
+
+header{
+    position: fixed;
+     top: 0; background-color: #8BD889; 
+     height: 70px; 
+     width:100%;
+     z-index: 10;
+}
+
+#Bandeira{
+    bottom: 640px; 
+    height: 230px; 
+    z-index: 11;
+    margin-top: -20px;
+    margin-left: 1010px;
+}
+
+#Title{
+    position: fixed; 
+    top: -70px; 
+    left: 100px; 
+    font-family: fonte1; 
+    color: rgb(248, 248, 248); 
+    font-size: 70px;
+}
+
+nav{
+    background-color:#5c8a55; 
+    position: fixed; 
+    width: 100%; 
+    z-index: 1; 
+    height: 40px;
+    top: 70px;
+}
+
+nav a:hover{
+    color: #2c2c2c;
+    transition: 200ms;
+}
+
+.Tópicos{
+    color: white; 
+    font-size: 40px; 
+    font-family: fonte2; 
+    margin-left: 50px; 
+    display: inline-block;
+    position: relative;
+    bottom: 4px;
+    text-decoration: none;
+}
+
+h2{
+    margin-top: 140px;
+    font-family: fonte3;
+    width: 900px;
+    margin-left: 70px;
+}
+
+#TieteTitle{
+    font-family: fonte2;
+    margin-left: 3cm;
+    margin-top: 3cm;
+    font-size: 50px;
+    color: #5c8a55;
+}
+
+#TieteText{
+    width: 600px;
+    font-size: 20px;
+    font-family: fonte3;
+    font-weight: bold;
+    display: inline-block;
+}
+
+#Shopping{
+ position: relative;
+ width: 460px;
+ left: 180px;
+ bottom: 20px;
+ border-radius: 50px;
+ border: #5c8a55 solid 5px;
+ z-index: -2;
+}
+
+#Starbucks{
+    width: 330px;
+    position: absolute;
+    top: 360px;
+    right: 310px;
+    border: solid 5px #8BD889;
+    border-radius: 50px;
+    z-index: 10;
+    z-index: -1;}
+
+#ClubCão{
+    width: 300px;
+    border-radius: 40px;
+    position: absolute;
+    left: 784px;
+    top: 600px;
+    border: #bff5bd solid 5px;
+}
+
+#PiritubaTitle{ 
+    font-family: fonte2;
+    color: #5c8a55;
+    font-size: 50px;
+    margin-left: 700px;
+    margin-top: 100px;
+}
+
+#PiritubaText{
+margin-left: 600px;
+font-family: fonte3;
+font-weight: bold;
+font-size: 20px;
+}
+
+#ShoppingPirituba{ position: relative;
+bottom: 300px;
+left: 50px;
+width: 450px;
+border-radius: 30px;
+border: 5px solid #5c8a55;}
+
+footer img {
+    height: 30px;
+    margin-left: 70px;
+}
+
+footer img:hover{
+    border-bottom: #8BD889 solid 3px;
+    transition: 100ms;
+}
+
+footer{
+    background-color: #162014;
+    position: absolute;
+    top: 1300px;
+    width: 100%;
+}
+
+footer div{
+    margin-left: 435px;
+    margin-top: 50px;
+}
+
+footer h1{
+    text-align: center;
+    color: white;
+    font-family: fonte2;
+    position: relative;
+    top: 20px;
+}
+
+#Indice{
+    position: absolute;
+    bottom: 270px;
+    right: 630px;
+    color: white;
+    font-family: fonte2;
+    font-size: 18px;
+    text-align: right;
+}
+
+#IndiceTitle{
+    font-family:fonte1;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+#Indice a{
+    color: white;
+    text-decoration: none;
+}
+
+#Indice a:hover{
+    color: #93f58f;
+}
+
+#ImagesBy{
+    color: white;
+    font-family: fonte2;
+    margin-top: 30px;
+    margin-left: 400px;
+}
+
+#Images{
+    font-family: fonte1;
+    font-size: 18px;
+}
+
+#IconsBy{
+    color: white;
+    font-family: fonte2;
+    position: absolute;
+    top: 137px;
+    left: 800px;
+}
+
+#Icons{
+    font-family: fonte1;
+    font-size: 18px;
+}
+
