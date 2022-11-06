@@ -308,26 +308,16 @@ video{
     text-align: center;
     font-size: 60px;
     position: relative;
-    bottom: 25px;
+    bottom: 65px;
 }
 
 #VídeoArea{
     background-color: #afc9ab;
     z-index: -2;
     position: absolute;
-    top: 3670px;
+    top: 3770px;
     width: 100%;
-}
-
-#Vídeo{ 
-    width: 1000px;
-    height: 500px;
-    position: relative;
-    left: 180px;
-    bottom: 60px;
-    z-index: -1;
-    border-radius: 20px;
-    border: 5px solid #385233;
+    height: 760px;
 }
 
 sup{
@@ -352,7 +342,7 @@ footer img:hover{
 footer{
     background-color: #162014;
     position: relative;
-    top: 490px;
+    top: 30px;
 }
 
 footer div{
